@@ -43,9 +43,9 @@ Biostatistical Concordance Analysis: This was performed on patients where proces
 -   Bland-Altman plot: The plot revealed a significant lack of agreement between the two methods. A positive bias was identified with a mean difference of +9.19 BPM, indicating that the thigh sensor tends to overestimate heart rate. The very wide agreement limits (±43.87 BPM) show that the difference between the two measurements can be dramatically large.  
 -   Lin's Concordance Coefficient (CCC). The numerical value of the concordance was extremely low, confirming the lack of agreement (0.0392). A value so close to zero indicates that the measurements of the two devices are not interchangeable at first glance, suggesting further testing and data for evaluation.  
 
-![Matriz de Confusión del Modelo Optimizado](Images/confusion_matrix_opt.png)
+![Gráfica de Bland-Altman](Images/grafica_bland_altman.png)
 
-![Importancia de las Características](Images/feature_importance_balanced.png)
+![Coeficiente de Concordancia de Lin](Images/calculo_correlacion_lin.png)
 
 We can say that although the thigh sensor can record a signal in most cases, it is not a viable or reliable substitute for a clinical ECG device in measuring heart rate. The lack of reliability of the processing and, more importantly, the poor agreement of the measurements only point to the importance of continuing this type of study in order to achieve an improvement that can be applied in clinical practice.  
 
